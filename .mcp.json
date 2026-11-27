@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "iaas-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://iaas-mcp.navercorp.com/mcp",
+        "--header",
+        "Authorization: Bearer ${IAAS_MCP_TOKEN}",
+        "--allow-http"
+      ]
+    }
+  }
+}
